@@ -1,9 +1,3 @@
-
-
-
-// PREZZO BIGLIETTO 0,21 CEN / KM
-var prezzo = parseInt("km * 0,21");
-
 // INSERIMENTO ETA'
 var eta = prompt("Quanti anni hai ?");
 console.log(eta);
@@ -12,6 +6,9 @@ console.log(eta);
 var km = prompt("Quanti km vuoi percorrere ?");
 console.log(km);
 
+// PREZZO BIGLIETTO 0,21 CEN / KM
+var prezzo = (km * 0,21);
+console.log(prezzo);
 // SCONTO
 if (eta<18){
   var prezzoMin = parseInt(prezzo - ((prezzo / 100)* 20));
