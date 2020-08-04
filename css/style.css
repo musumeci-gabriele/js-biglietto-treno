@@ -6,23 +6,21 @@
 
 .bit-online{
   position: relative;
-
+  width: 75%;
+  margin: auto;
 
 }
 
 body h1{
   text-transform: capitalize;
 }
-img{
-  margin-left: auto;
-  background-repeat: no-repeat;
 
-}
 .box-bit{
   position: absolute;
-  margin: auto;
+  margin-left: 26%;
   border: 2px solid red;
   background-color: white;
+  text-align: center;
   color: inherit;
   border-radius: 5px;
   padding: 30px;
