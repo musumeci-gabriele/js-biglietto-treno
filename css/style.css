@@ -8,13 +8,13 @@
   position: relative;
   width: 75%;
   margin: auto;
-
 }
 
 body h1{
   text-transform: capitalize;
 }
 
+/* contenitore info */
 .box-bit{
   position: absolute;
   margin-left: 26%;
@@ -27,3 +27,4 @@ body h1{
   width: 50%;
 
 }
+/* //contenitore info */
